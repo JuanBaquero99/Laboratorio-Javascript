@@ -33,3 +33,17 @@ const hobbie3 = "estudiar"
 const hobbies = 'Mis hobbies son: '.concat(hobbie1, ',', hobbie2,',', hobbie3)
 console.log(hobbies)
 
+//Caracteres de escape
+//1. Escape alternativo
+const escapeAlternativo = "I'm Software Engineer"
+//Se puede con barra invertida y comilla invertida
+
+//Strings Largos 
+const poema = 'Las rosas son rojas,\n\
+Las violetas son azules,\n\
+Error inesperado,\n\
+En la línea 86.';
+
+console.log(poema)
+
+//Son los saltos de linea
