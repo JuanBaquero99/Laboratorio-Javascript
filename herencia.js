@@ -34,9 +34,20 @@ perro1.emitirSonido()
 //El this raza pertenece a esa clase especifica.
 //Sin embargo con el super puede heredar los otros accesos
 
-perro1.nuevoMetod = function() {
+perro1.nuevoMetodo = function() {
     console.log('Este es un método');
 };
+
+Perro.prototype.segundoMetodo = function () {
+    console.log('Es otro nuevo método');
+};
+
+//Protype se usa con clases, ya que permite incorporar sus métodos a estas
+//La idea es ir revisando que clase hereda de cual. Cuales son las cadenas de herencia
+//Por ejemplo Perro hereda métodos de Animal
+
+
+
 
 
 
